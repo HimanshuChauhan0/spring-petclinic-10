@@ -8,7 +8,7 @@ node {
   
         stage('Prepare') {
             
-              git url: 'https://github.com/Skumarcibm/spring-petclinic.git', branch:'main'
+              git url: 'https://github.com/HimanshuChauhan0/spring-petclinic-10.git', branch:'main'
               mvnHome = tool 'mvn' 
             
         }
