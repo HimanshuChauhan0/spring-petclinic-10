@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: petcontainer
-          image: Himanshu0/petimage
+          image: himanshu0/petimages
           ports:
             - containerPort: 8080
