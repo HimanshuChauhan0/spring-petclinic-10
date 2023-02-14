@@ -1,21 +1,21 @@
 kind: Deployment
 apiVersion: apps/v1
 metadata:
-  name: petclinicclus
+  name: petshop
   labels:
-    app: petclinicclus
+    app: petshop
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: petclinicclus
+      app: petshop
   template:
     metadata:
       labels:
-        app:  petclinicclus
+        app:  petshop
     spec:
       containers:
-        - name: petclinicclus
-          image: skumarjira/petimage
+        - name: petcontainer
+          image: Himanshu0/petimage
           ports:
             - containerPort: 8080
